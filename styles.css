@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+}
+
+#status {
+    text-align: center;
+}
+
+#description {
+    text-align: left;
+}
+
+#manage {
+    text-align: center;
+}
+
+.tablediv {
+    width: 65%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+table tbody tr td:nth-child(2) {
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+input[type=text]  {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.buttonform {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.buttondelete {
+    padding: 2px 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+button:hover {background-color: #e7e7e7;}
+
+input[type=checkbox] {
+    margin-top: 8px;
+    width: 30px;
+    height: 25px;
+}
+  
